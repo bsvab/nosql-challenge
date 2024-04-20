@@ -14,17 +14,17 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ## <p style="color:#CC6600">Part 2: Update the Database</p> 
 
-The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. The following changes to the establishments collection were incorporated:
-- A new restaurant called 'Penang Flavours' is added to the database, and its business type ID is corrected.
+The magazine editors requested modifications for the database before performing any queries or analysis for them. The following changes to the establishments collection were incorporated:
+- A new restaurant called 'Penang Flavours' was added to the database, and its business type ID was corrected.
 - The magazine is not interested in any establishments in Dover, so all documents that contain the Dover Local Authority were removed.
 - Corrections were made on number values that were stored as strings to update them to the correct data types.
 <br>
 
-## <p style="color:#CC6600">Part 2: Exploratory Analysis</p> 
+## <p style="color:#CC6600">Part 3: Exploratory Analysis</p> 
 
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
-The following qustions are answered via providing filtered dataframes displaying the relevant information:
+The following qustions are answered via providing filtered dataframes displaying the relevant information in each cell output. Please refer to the `NoSQL_analysis.ipynb` file for all outputs.
 - Which establishments have a hygiene score equal to 20?
 - Which establishments in London have a RatingValue greater than or equal to 4?
 - What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
